@@ -9,11 +9,11 @@ public class sumOfNaturalNo {
         System.out.println("Enter your Number");
         int n= sc.nextInt();
         int sum=findSum(n);
-        System.out.println("Sum of natural Number is: "+sum);
+        System.out.println("Sum of"+n+" natural Number is: "+sum);
     }
     private static int findSum(int n){
         int sum=0;
-        for(int i=0;i<=n;i++){
+        for(int i =0;i<=n;i++){
             sum=sum+i;
         }
         return sum;
