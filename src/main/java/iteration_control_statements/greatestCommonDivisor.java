@@ -1,3 +1,4 @@
+/*This Program to find Greatest Common Divisor(GCD).*/
 package iteration_control_statements;
 
 import java.util.Scanner;
