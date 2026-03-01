@@ -1,7 +1,6 @@
 /* This Program to print Left Angle Star Pattern*/
 
 package pattern_programs;
-
 import java.util.Scanner;
 
 public class leftAngleStarPattern {
