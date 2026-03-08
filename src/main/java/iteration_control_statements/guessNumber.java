@@ -1,3 +1,6 @@
+/*The Program To accept a digit(0-9) as input, then generate a random
+* digit(0-9) and Check for both digit are matched or not.*/
+
 package iteration_control_statements;
 
 import java.util.Random;
