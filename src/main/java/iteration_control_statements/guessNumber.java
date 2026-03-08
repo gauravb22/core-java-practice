@@ -4,6 +4,7 @@
 package iteration_control_statements;
 import java.util.Random;
 import java.util.Scanner;
+
 public class guessNumber {
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
@@ -15,14 +16,14 @@ public class guessNumber {
         while (number<0||number>9);
         //Generate a random number.
         int randomNumber=new Random().nextInt(10);
-                if(number==randomNumber){
-                    System.out.println("Your number"+number);
-                    System.out.println("Random number"+ randomNumber);
-                    System.out.println("You won lottery");
-                }
-                else {
-                    System.out.println("Random number"+randomNumber);
-                    System.out.println("You lost lottery");
-                }
+        if(number==randomNumber){
+            System.out.println("Your number"+number);
+            System.out.println("Random number"+ randomNumber);
+            System.out.println("You won lottery");
+        }
+        else {
+            System.out.println("Random number"+randomNumber);
+            System.out.println("You lost lottery");
+        }
     }
 }
