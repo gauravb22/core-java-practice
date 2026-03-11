@@ -1,4 +1,5 @@
-package pattern_programs;
+/*This program to swap two numbers without using a temporary variable.*/
+        package pattern_programs;
 public class swapNumber {
     public static void main(String[] args) {
         int a = 5, b = 10;
